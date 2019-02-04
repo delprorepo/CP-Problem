@@ -1,0 +1,26 @@
+TETANGGAAN
+------------------------------------------------
+
+Suatu hari Mael le mendapatkan tawaran untuk promosi dan bekerja di kantor yang menjadi perusahaan pendukung pekerjaannya selama ini yaitu perusahaan Boi-jek. Lalu pada hari itu juga dia datang ke kantor tempat dia bekerja, namun ia melihat ternyata ruangan kantor tersebut terdapat banyak sekali cublicle(space kerja).
+
+Ruang kerja Mael le ternyata ditempatkan ditengah-tengah ruangan tersebut. 
+Lalu, sebagai seseorang yang pada dasarnya cukup ramah, Mael pun ingin mengetahui banyaknya rekan kerja tentangganya yang ada di sekitarnya agar nantinya bisa minta tolong ke mereka jika dia tidak mengerti pekerjaannya. Namun setelah dia pindah, rasa penasarannya pun jadi bertambah. Dia tidak hanya ingin tau tentangga yang dimilikinnya, namun juga tetangga dari setiap tetangganya. 
+Karena Mael mulai kewalahan untuk menghitungnya, sebagai tetangga terdekat dan terakrab Mael kamu berniat membantunya untuk menghitung jumlah tetangga setiap cubicle jika besar ruangan adalah N*N
+
+--------------------------
+Input
+--------------------------
+Inputan akan berisi sebuah matriks yang berisikan huruf X jika ternyata di sebuah cubicle tidak terdapat orang disitu dan terdapat huruf O jika ternyata di tempat itu ada orangnya (termasuk Mael).
+Nah namun bentuk kantornya ini akan memberikan huruf X pada setiap bagian terluarnya untuk memberikan ruang kosong agar setiap orang bisa berjalan dan berkeliling.
+
+--------------------------
+Constraint
+--------------------------
+3<=N<=10
+
+--------------------------
+Output
+--------------------------
+Keluarkan lagi matriks tersebut namun, setiap tempat yang ada orangnya ganti menjadi banyaknya tetangga di sekitarnya
+
+Tetangga di soal ini adalah orang yang posisinya tidak berbeda 1 lebih dari kordinat dari orang tersebut 
